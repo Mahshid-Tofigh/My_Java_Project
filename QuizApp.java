@@ -14,12 +14,12 @@ public class QuizApp {
         ArrayList<Question> questions = quizApp.createQuiz1Questions();
         ArrayList<Question> questions2 = quizApp.createQuiz2Questions();
 
-        //  Create your own data for your quiz and quiz topic. Here is an example.
+        
         Quiz quiz1 = quizApp.createQuiz(questions, user);
         Quiz quiz2 = quizApp.createQuiz2(questions2, user);
         
-        // prints both student and instructor version of the quiz.
-        // You may want to create separate print methods for student and instructor.
+        
+        
 
         quizApp.printQuiz1(quiz1, user);
         System.out.println("\n");
