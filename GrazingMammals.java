@@ -2,7 +2,7 @@
 interface RuminantTester {
     void testIfRuminant();
     void  testHasMultipleStomachs();
-    // Add your code here
+    
 }
 
 abstract class Mammal {
@@ -10,7 +10,7 @@ abstract class Mammal {
         String className = this.getClass().getSimpleName();
         System.out.println("I am a "+ className + ". I am nursing.");
     }
-    // Add your code here
+    
 }
 
 abstract class GrazingMammal  extends Mammal implements RuminantTester {
@@ -35,7 +35,7 @@ abstract class GrazingMammal  extends Mammal implements RuminantTester {
         else
             System.out.println("I am a " + className + ". I am not a Ruminant.");
     }
-    // Add your solution here
+    
 }
 
 abstract class Ruminant extends GrazingMammal   {
@@ -44,7 +44,7 @@ abstract class Ruminant extends GrazingMammal   {
         System.out.println("I am a " + className + ". I am chewing cud.");
 
     }
-    // Add your code here
+    
 }
 
 class Cow extends Ruminant {
